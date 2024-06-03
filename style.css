@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style-type: none;
+}
+/* ------------------------------------nav-start----------------------------------- */
+
+.navbar{
+    margin-top: 35px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+.navbar .nav-item .nav-link{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 68px;
+    transition: all linear .5s;
+}
+.navbar .nav-item .nav-link:hover{
+    color:#FD6E0A;
+}
+.hire_me a {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    transition: all linear .5s;
+}
+.hire_me a:hover{
+    background-color: transparent;
+    color: #FD6E0A;
+}
+.hire_me{
+    padding-left: 36px;
+}
+/* ------------------------------------nav-end----------------------------------- */
+/* ---------------------------------banner-start---------------------------------- */
+#banner{
+    background-color: #FFF8F3;
+    padding-top: 100px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+.banner_text{
+    margin-top: 285px;
+    margin-bottom: 202px;
+}
+.banner_text h3{
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    padding-bottom: 10px;
+}
+.banner_text h1{
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    padding-bottom: 15px;
+}
+.banner_text p{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height:30px;
+    padding-bottom: 30px;
+}
+.banner_text .download_btn {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    padding: 19px 17px;
+    margin-right: 29px;
+    transition: all linear .5s;
+}
+.banner_text .download_btn:hover{
+    color: #FD6E0A;
+    background-color: transparent;
+}
+.banner_text .contact_btn:hover{
+    color: #ffffff;
+    background-color: #FD6E0A;
+}
+.banner_text i{
+    padding-right: 5px;
+}
+.banner_text .contact_btn {
+    color: #FD6E0A;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    padding: 19px 17px;
+    margin-right: 29px;
+    transition: all linear .5s;
+}
+.banner_img{
+    padding-top: 50px;
+}
+/* ---------------------------------banner-end---------------------------------- */
+/* ---------------------------------about-start---------------------------------- */
+.about_content{
+    background-color: #FFF8F3;
+    margin: 130px 0px;
+}
+.about_content .inner_about_content{
+    padding: 131px 156px 0px 156px;
+}
+.about_content .inner_about_content h3{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.about_content .inner_about_content p{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    padding: 30px 0px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 178px 130px 178px;
+}
+.info1 h4{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.info1 p{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+/* ---------------------------------about-end---------------------------------- */
+.title{
+    text-align: center;
+    margin: 0 auto;
+}
+.title h3{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.title p{
+    width: 909px;
+    margin: 0 auto;
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#service{
+    margin-bottom: 130px;
+}
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+}
+.card .card_body{
+    width: 267px;
+    padding: 30px;
+}
+.card .card_body .card_text{
+    width: 204px;
+}
+.card .card_body .card_text h5{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 0px 20px 0px;
+}
+.card .card_body .card_text p{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+    
+/* ------------services-end---------------------------------- */ 
+/* ----------------------------------summary-start---------------------------------- */
+#summary .summary_title h3{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center; 
+    padding-bottom: 113px;   
+}
+.summary_content h3{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+.summary_content h4{
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.summary_content h5{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    padding-bottom: 20px;
+}
+.summary_content p{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+}
+.button{
+    text-align: center; 
+    padding-top: 50px;
+    margin-bottom: 113px;
+}
+.download_btn{
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    padding: 19px 17px;
+    transition: all linear .5s;
+}
+.download_btn:hover{
+    color: #FD6E0A;
+    background-color: #ffffff;
+}
+.button i{
+    margin-right: 5px;
+}
+/* ---------------------------------summary-end---------------------------------- */
+/* ---------------------------------banner-start---------------------------------- */
+#footer{
+    background-color: #FFF8F3;
+    height: 780px;
+}
+.footer_left{
+    padding-top: 130px;
+}
+.footer_left h3{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.footer_left p{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+    width: 562px;
+}
+.img2{
+    padding-left: 24px;
+}
+.img3{
+    padding-left: 24px;
+}
+.footer_right{
+    padding-top: 130px;
+}
+.footer_right h3{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700; 
+    padding-bottom: 28px;     
+}
+.form1{
+    padding-bottom: 24px;
+}
+.form-control{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn{
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    padding: 19px 17px;
+    transition: all linear .5s;
+}
+
+/* ---------------------------------banner-end---------------------------------- */
